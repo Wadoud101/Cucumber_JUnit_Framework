@@ -48,5 +48,11 @@ public class US1001_testSearchResult {
     @When("search for {string} in search box")
     public void searchForInSearchBox(String searchText) {
         mainPage.searchBox.sendKeys(searchText + Keys.ENTER);
+
+    }
+
+    @Then("test that what is search result")
+    public void testThatWhatIsSearchResult() {
+        System.out.println(mainPage.searchResultText.getText());
     }
 }
