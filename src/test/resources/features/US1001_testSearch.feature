@@ -1,4 +1,5 @@
 
+
 Feature: US1001 test search on testotomasyonu pages
   Scenario: TC01 user could find result for phone search
     Given user could get in main page
