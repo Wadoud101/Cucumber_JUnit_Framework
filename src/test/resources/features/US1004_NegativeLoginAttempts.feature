@@ -1,4 +1,5 @@
 
+@wip @parallel2
 Feature: US1004 Negative Login Attempts
   Scenario Outline: TC10 liste olarak verilen gecersiz email ve password
 
