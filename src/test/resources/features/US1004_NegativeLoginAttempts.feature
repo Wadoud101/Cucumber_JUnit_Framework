@@ -1,5 +1,5 @@
 
-@wip @parallel2
+@parallel2
 Feature: US1004 Negative Login Attempts
   Scenario Outline: TC10 liste olarak verilen gecersiz email ve password
 
@@ -8,9 +8,8 @@ Feature: US1004 Negative Login Attempts
     When enter "<givenEmail>" as email address
     And enter "<givenPassword>" as password
     And press the sign in button
-    And wait for 1 second
     Then verify that he could not entered to the system
-    And close the page
+
 
     Examples:
 
